@@ -2,6 +2,7 @@ name: surrealdb
 providers:
   - render
   - digitalocean
+  - flyio
 services:
   - type: docker
     name: surrealdb
